@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d653179f.css",
+    "main.js": "/static/js/main.4647f934.js",
+    "static/js/453.f293bb83.chunk.js": "/static/js/453.f293bb83.chunk.js",
+    "static/media/bread.png": "/static/media/bread.0fee657e4d8f36be0877.png",
+    "static/media/Smoothie.png": "/static/media/Smoothie.34ab97423973b542d856.png",
+    "static/media/healthy-food.png": "/static/media/healthy-food.f50cb5e25f61bc529720.png",
+    "static/media/cyclist.gif": "/static/media/cyclist.4753aaf6ec2bb82e0a6f.gif",
+    "static/media/slide2-1.png": "/static/media/slide2-1.e88eddb695c3ab1dce51.png",
+    "static/media/bn2-1.png": "/static/media/bn2-1.fa867869666faad9df34.png",
+    "static/media/bg-slide2-3.jpg": "/static/media/bg-slide2-3.24d9731ce9eea907ac6f.jpg",
+    "static/media/orange-1.png": "/static/media/orange-1.f77f135e86c3f14b8bca.png",
+    "static/media/bg-slide2-1.jpg": "/static/media/bg-slide2-1.35936c28513351dd1d74.jpg",
+    "static/media/newsletter.jpg": "/static/media/newsletter.80f2f96b680928fb4a87.jpg",
+    "static/media/leaves.png": "/static/media/leaves.8a561f8d7b1f7c553029.png",
+    "static/media/chili-sauce.png": "/static/media/chili-sauce.c9ce71ea176294af5b20.png",
+    "static/media/footer_bg.png": "/static/media/footer_bg.b42a196364314e3565f7.png",
+    "static/media/tooglebar.png": "/static/media/tooglebar.fabf517b190551f35635.png",
+    "static/media/volks.gif": "/static/media/volks.96f73df7ebc5b85c7bee.gif",
+    "static/media/orange2.png": "/static/media/orange2.31619df08ff42eab73fa.png",
+    "static/media/vegetables (2).png": "/static/media/vegetables (2).406f5bd7ed619da5b34c.png",
+    "static/media/bg-slide2-2.jpg": "/static/media/bg-slide2-2.c6249484cfe1fd30bc29.jpg",
+    "static/media/Strawberry.png": "/static/media/Strawberry.c4b164d66edae1efe3ee.png",
+    "static/media/Burger.png": "/static/media/Burger.18d51559cb5fe61b10be.png",
+    "static/media/beef.png": "/static/media/beef.3aeae9a2104661521bf9.png",
+    "static/media/vegetable.png": "/static/media/vegetable.afaea6da1624d36c36ac.png",
+    "static/media/drink.png": "/static/media/drink.bae696a40ee3a7b985b9.png",
+    "static/media/leaves2.png": "/static/media/leaves2.2174239b4a651e1d37a8.png",
+    "static/media/bg-banner2.jpg": "/static/media/bg-banner2.9c59e62561d5e804b7c1.jpg",
+    "static/media/salmon.png": "/static/media/salmon.3555c8dbb396d4226f11.png",
+    "static/media/lettuce2.png": "/static/media/lettuce2.74e3c839c3968614fa2e.png",
+    "index.html": "/index.html",
+    "main.d653179f.css.map": "/static/css/main.d653179f.css.map",
+    "main.4647f934.js.map": "/static/js/main.4647f934.js.map",
+    "453.f293bb83.chunk.js.map": "/static/js/453.f293bb83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d653179f.css",
+    "static/js/main.4647f934.js"
+  ]
+}
