@@ -5,7 +5,7 @@ import '../component css/home.css'
 
 function Home() {
   return (
-   <div className=""></div>
+   <div className="">hello</div>
   )
 }
 
