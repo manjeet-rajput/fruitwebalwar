@@ -334,8 +334,8 @@ function Home() {
  </div>
 </div></div>
 {/* ................................................page 4 ........................................ */}
-<div className="container">
- <div className="row page4">
+<div className="container page4">
+ <div className="row">
    <div className="col-md-6 col-sm-12">
      <div className="page4bx1details1">
        <div className="row">
