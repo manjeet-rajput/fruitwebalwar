@@ -1,8 +1,8 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Home from './component/Home';
 import Shop from './component/Shop';
-import Product from './component/Product';
+// import Product from './component/Product';
 import Pages from './component/Pages';
 import Blog from './component/Blog';
 import Wishlist from './component/Wishlist';
@@ -10,7 +10,7 @@ import Profile from './component/Profile';
 import Bag from './component/Bag';
 import Header from './Header';
 import Footer from './Footer';
-import Homeproduct from './apicomponent/Homeproduct';
+// import Homeproduct from './apicomponent/Homeproduct';
 function App() {
   return (
     <div>
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />  
-          <Route path="/product" element={<Homeproduct />} />  
+          {/* <Route path="/product" element={<Homeproduct />} />   */}
           <Route path="/pages" element={<Pages />} />  
           <Route path="/blog" element={<Blog />} />  
           <Route path="/wishlist" element={<Wishlist />} />  

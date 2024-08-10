@@ -471,38 +471,24 @@
   border: none;
 }
 /* .................................page 5................................. */
-
-.page5boxes{
-  height: 400px;
+.page5 {
+  height: auto;
   background-color: #61645b;
-  padding: 10px;
+  padding-top: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.page5boxescard{
-  margin: auto;
+
+.boxespg5{
   width: 100%;
-  height: 100%;
+  height: 300px;
   background-color: #ce1de7;
-  padding: 10px;
-}
-/* .homeproductapibox{
-  width: 200px;
-  height: 200px;
-  background-color: rgb(212, 151, 70);
-  float: left;
   margin: 10px;
-} */
-.mybox{
-  width: 100%;
-  height: auto;
-  padding: 10px;
+  float: left;
 }
-.fruit_box{
-  width: 200px;
-  height: 200px;
-  background-color: red;
-}
+
+
 
 
 

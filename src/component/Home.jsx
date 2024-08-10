@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import Homeproduct from '../apicomponent/Homeproduct';
+import Item from '../itemcomponent/Item';
 
 
 
@@ -365,7 +365,7 @@ function Home() {
  </div>
 </div>
 {/* .......................................page 5............................................... */}
-
+<Item/>
 
 
     </>
