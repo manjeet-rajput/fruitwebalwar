@@ -34,6 +34,30 @@ code {
 .iconlefthsf:hover{
   color: #5e2ced;
 }
+.navproductlist{
+  padding-top: 22px;
+  width: 200px;
+  top: 50px;
+  height: 110px;
+  /* background-color: #7a00ff; */
+  display: none;
+  position: absolute;
+  z-index: 999;
+  transition: ease-in-out;
+  
+}
+.nav-item:hover .navproductlist {
+  display: block;
+  transition: ease-in-out;
+}
+.categorynavbx{
+  width: 50%;
+  height: 50%;
+  background-color: #d2d6eb;
+  float: left;
+}
+
+
 
 
 @media only screen and (min-width: 992px){

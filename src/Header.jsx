@@ -24,15 +24,22 @@ function Header() {
                   </li>
                   
                   <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to='/shop'>Shop</Link>
-                    <div className='nav_buttonlune'></div>
-                  </li>
-                  <li className="nav-item">
                     <Link className="nav-link active" aria-current="page" to='/product'>Product</Link>
+                    <div className='col-6 col-md-5 col-sm-5 nav_buttonlune'></div>
+                    <div  className='navproductlist'>
+                    <div className="categorynavbx">1</div>
+                      <div className="categorynavbx">2</div>
+                      <div className="categorynavbx">3</div>
+                      <div className="categorynavbx">4</div>
+                    </div>
+
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link active" aria-current="page" to='/contact'>Contact</Link>
                     <div className='nav_buttonlune'></div>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to='/pages'>Pages</Link>
+                    <Link className="nav-link active" aria-current="page" to='/about'>About</Link>
                     <div className='nav_buttonlune'></div>
                   </li>
                   <li className="nav-item">

@@ -1,46 +1,58 @@
 import React, { useState, useEffect } from 'react';
 import '../component css/home.css';
+import axios from 'axios';
 
 function Item() {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [groupedProducts, setGroupedProducts] = useState({});
+  const [loading, setLoading] = useState(true); // Loading state to show/hide the loader
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://api.escuelajs.co/api/v1/products');
-        const result = await response.json();
-        setData(result);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
+    axios.get('https://66c83807732bf1b79fa89cc1.mockapi.io/api/v1/fruit')
+      .then(response => {
+        const products = response.data;
 
-    fetchData();
+        const grouped = products.reduce((acc, product) => {
+          const category = product.category || 'Uncategorized'; 
+          if (!acc[category]) {
+            acc[category] = [];
+          }
+          if (acc[category].length < 4) {
+            acc[category].push(product);
+          }
+          return acc;
+        }, {});
+
+        setGroupedProducts(grouped);
+        setLoading(false); // Loader hidden once data is fetched
+      });
   }, []);
 
-  if (loading) {
-    return (
-      <div className="loader-container">
-        <div className="loader"></div>
-      </div>
-    );
-  }
   return (
     <div className="container page5">
       <div className="row">
-        {data.map(item => (
-          <div className="col-md-3 col-sm-4 col-6 page5bx" key={item.id}>
-            <div className="pg5itmbx">
-              <img className='itemimgpag5' src={item.images[0]} alt={item.title} />
-              <p>{item.title}</p>
-              <h4>{item.price} $</h4>
-              <button>More Details</button>
+        <div className="col-md-12 col-sm-12 col-12 page5h1">
+          <h1>Products</h1>
+        </div>
+
+        {loading ? (
+          <div className="loader"></div>
+        ) : 
+          (Object.keys(groupedProducts).map(category => (
+            <div key={category} className="col-md-12 col-sm-12 col-12">
+              <div className="row">
+                {groupedProducts[category].map(item => (
+                  <div className="col-md-3 col-sm-4 col-6 page5bx" key={item.id}>
+                    <div className="page5bxproduct">
+                      <img src={item.image[0]} alt={item.name} />
+                      <h3>{item.name}</h3>
+                      <h4>{item.price}$</h4>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </div>
   );
