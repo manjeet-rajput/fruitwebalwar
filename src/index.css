@@ -12,26 +12,3 @@ code {
     monospace;
 }
 /* ............pages............ */
-.ludo-game {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.board {
-  width: 600px;
-  height: 600px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-}
-
-.controls {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-button {
-  margin-bottom: 10px;
-}

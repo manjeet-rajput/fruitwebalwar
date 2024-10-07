@@ -489,6 +489,7 @@
   height: 90%;
   /* background-color: aqua; */
   border-radius: 10px;
+  position: relative;
 }
 .page5h1{
   height: 100px;

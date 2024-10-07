@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import '../component css/home.css';
+import '../product/product.css'
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart ,faShoppingCart ,faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Item() {
   const [groupedProducts, setGroupedProducts] = useState({});
-  const [loading, setLoading] = useState(true); // Loading state to show/hide the loader
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios.get('https://66c83807732bf1b79fa89cc1.mockapi.io/api/v1/fruit')
@@ -23,7 +26,7 @@ function Item() {
         }, {});
 
         setGroupedProducts(grouped);
-        setLoading(false); // Loader hidden once data is fetched
+        setLoading(false); 
       });
   }, []);
 
@@ -44,6 +47,11 @@ function Item() {
                   <div className="col-md-3 col-sm-4 col-6 page5bx" key={item.id}>
                     <div className="page5bxproduct">
                       <img src={item.image[0]} alt={item.name} />
+                      <div className="likeaddcardbxproduct">
+                <div className="itemaddlikeview"><FontAwesomeIcon icon={faHeart}/></div>
+                <div className="itemaddlikeview"><FontAwesomeIcon icon={faShoppingCart}/></div>
+                <div className="itemaddlikeview"><FontAwesomeIcon icon={faEye}/></div>
+             </div>
                       <h3>{item.name}</h3>
                       <h4>{item.price}$</h4>
                     </div>

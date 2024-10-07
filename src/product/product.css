@@ -1,0 +1,51 @@
+.likeaddcardbxproduct{
+    width: 30px;
+    height: 60%;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 0;
+    top: 40%;
+    padding-bottom: 70px;
+    display: none;
+    
+}
+.itemaddlikeview{
+ color: rgb(62, 62, 72);
+ display: flex;
+ padding-top: 20px;
+ font-size: 18px;
+ cursor: pointer;
+}
+.FontAwesomeIcon:hover{
+    color: blueviolet;
+}
+.page5bxproduct:hover .likeaddcardbxproduct{
+    display: block;
+}
+.h1divcategory{
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 0, 134);
+    border-radius: 20px;
+}
+.h1divcategory h1{
+    color: rgb(226, 226, 11) ;
+}
+
+
+
+
+@media (min-width:180px) and (max-width:499px){
+    .likeaddcardbxproduct{
+        top: 20%;
+    }
+}
+@media (min-width:500px) and (max-width:768px){
+    .likeaddcardbxproduct{
+        top: 30%;
+    }
+}

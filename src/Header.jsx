@@ -27,10 +27,22 @@ function Header() {
                     <Link className="nav-link active" aria-current="page" to='/product'>Product</Link>
                     <div className='col-6 col-md-5 col-sm-5 nav_buttonlune'></div>
                     <div  className='navproductlist'>
-                    <div className="categorynavbx">1</div>
-                      <div className="categorynavbx">2</div>
-                      <div className="categorynavbx">3</div>
-                      <div className="categorynavbx">4</div>
+                    <div className="categorynavbx">
+                     <Link to="/vegetable"><img src={require('../src/component/img/vegetable.png')} alt="" />
+                      <h6>Vegitarible</h6></Link>
+                    </div>
+                      <div className="categorynavbx">
+                        <Link to="/Fruits"><img src={require('../src/component/img/apple.png')} alt="" />
+                        <h6>Fruit</h6></Link>
+                      </div>
+                      <div className="categorynavbx">
+                      <Link to="/drink"><img src={require('../src/component/img/Soft-drink.png')} alt="" />
+                      <h6>Drink</h6></Link>
+                      </div>
+                      <div className="categorynavbx">
+                      <Link to="/meat"><img src={require('../src/component/img/Chiken.png')} alt="" />
+                      <h6>Chiken</h6></Link>
+                      </div>
                     </div>
 
                   </li>
