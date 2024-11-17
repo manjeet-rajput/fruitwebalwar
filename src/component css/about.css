@@ -1,0 +1,41 @@
+.aboutpg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .about2bx1 {
+    width: 100%;
+  }
+
+  .about2bximg {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .about2bximg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  .about2bx211{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    
+  }
+  .about2bx2{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .about2bx2 img{
+    width: 100%;
+  }
+  

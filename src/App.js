@@ -9,21 +9,23 @@ import Header from './Header';
 import Footer from './Footer';
 import About from './component/About';
 import Contact from './component/Contact';
-import Product from './component/Product';
+// import Product from './component/Product';
 import Chikin from './product/Chikin';
 import Coldrink from './product/Coldrink';
 import Fruit from './product/Fruit';
 import Vegitarible from './product/Vegitarible'
+import Viewitem from './component/Viewitem';
 // import Homeproduct from './apicomponent/Homeproduct';
 function App() {
   return (
     <div>
       
       <BrowserRouter>
+  
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={< Product/>} />
+          {/* <Route path="/product" element={< Product/>} /> */}
           <Route path="/about" element={< About/>} />
           <Route path="/contact" element={< Contact/>} />
           <Route path="/blog" element={<Blog />} />  
@@ -34,6 +36,9 @@ function App() {
           <Route path='/Fruits' element={<Fruit/>}/>
           <Route path='/drink' element={<Coldrink/>}/>
           <Route path='/meat' element={<Chikin/>}/>
+          <Route path="/view/:id" element={<Viewitem />} />
+
+          
 
           
         </Routes>

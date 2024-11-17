@@ -24,7 +24,7 @@ function Header() {
                   </li>
                   
                   <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to='/product'>Product</Link>
+                    <a className="nav-link active" aria-current="page" >Product</a>
                     <div className='col-6 col-md-5 col-sm-5 nav_buttonlune'></div>
                     <div  className='navproductlist'>
                     <div className="categorynavbx">

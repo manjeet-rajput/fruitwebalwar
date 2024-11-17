@@ -1,0 +1,137 @@
+.page1hd{
+    background-color: yellow;
+}
+.page1head{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: small;
+}
+.iconheaad{
+    color: green;
+    padding-right: 10px;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .iconheaad {
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  
+  .iconheaad:hover {
+    animation: shake 1s ease-in-out infinite;
+  }
+  .contactpag{
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .contactpag p{
+    font-size: small;
+    padding-left: 20px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .abicon{
+    font-size: x-small;
+  }
+  .getdirationmap{
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(177, 177, 177);
+
+  }
+  .bx1{
+    height: 100%;
+    width: 70%;
+    /* background-color: blue; */
+    float: left;
+  }
+  .bx1 h5{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+  }
+  .bx1 p{
+    color: gray;
+    font-size: small;
+  }
+  .bx2{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(0, 140, 255); */
+    float: left;
+
+  }
+  .directionicon{
+    font-size: x-large !important;
+    color: black !important;
+    padding-left: 20px;
+  }
+  .directions-link{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+  /* .........................................................page3......................................... */
+
+.formbx{
+  height: 450px;
+  /* background-color: skyblue; */
+}
+.addressbx{
+  height: 450px;
+  /* background-color: rgb(9, 177, 243); */
+}
+.page3hed p{
+    font-size: small;
+    color: gray;
+}
+.page3hed h4{
+  font-weight: bold;
+  color: black;
+}
+.formbx input{
+    height: 50px;
+    font-size: small;
+    margin-top: 5px;
+    outline: none
+    
+}
+.messageinput{
+  height: 300px !important;
+}
+.addressbx1{
+  /* background-color: rgb(215, 229, 16); */
+  height: 23%;
+ 
+}
+.addressbx1 h5{
+  font-size: 14px;
+  padding-top: 20px;
+}
+.addressbxicon{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+
+  
+
+  
